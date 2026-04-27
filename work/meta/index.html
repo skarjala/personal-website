@@ -23,9 +23,13 @@
         </header>
 
         <ul class="detail-list">
-          <li><strong>Team:</strong> PyTorch Compiler team.</li>
-          <li><strong>Focus:</strong> ML compilers and distributed GPU systems.</li>
-          <li><strong>Location:</strong> Menlo Park, California, United States.</li>
+          <li><strong>Role:</strong> Software Engineer Intern on the PyTorch Compiler team at Meta Superintelligence Lab.</li>
+          <li><strong>Distributed diagnostics:</strong> Shipped torch.compile and torch.distributed tooling to detect synchronization issues across multi-GPU jobs, built with Rust and Python.</li>
+          <li><strong>Compiler replay:</strong> Extended torch.compile support for dynamic-shape and higher-order graph replay with per-graph microbenchmarks, plus AOT diagnostics that capture failures and minimal repros.</li>
+          <li><strong>Compile-time guards:</strong> Engineered checks across TorchDynamo JIT and AOT-Autograd pipelines, diffing graph fingerprints, NVRTC kernel cache hashes, collective schedules, and execution-order drift across GPU ranks to reduce desyncs and distributed deadlocks by 40%.</li>
+          <li><strong>Kernel provenance:</strong> Built Inductor provenance to map Triton kernels back to source PyTorch ops and log per-kernel stack traces for debugging.</li>
+          <li><strong>Rank-level anomalies:</strong> Fused GPU runtime counters with FX graph topology to identify NCCL all-reduce imbalance and deliver an 8% distributed training throughput gain.</li>
+          <li><strong>tlparse:</strong> Released a PyTorch tlparse update with plugin/registry support for custom ops and multi-rank aggregation, unifying internal and open-source code paths.</li>
         </ul>
       </article>
     </main>

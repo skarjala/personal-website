@@ -54,7 +54,7 @@ const responses = [
   {
     terms: ["meta", "superintelligence", "pytorch", "compiler"],
     answer:
-      "Previously, Sandeep worked at Meta Superintelligence Lab on the PyTorch Compiler team, focused on ML compilers and distributed GPU systems.",
+      "Previously, Sandeep worked at Meta Superintelligence Lab on the PyTorch Compiler team, building torch.compile and torch.distributed diagnostics for multi-GPU jobs.",
   },
   {
     terms: ["tlparse", "project", "rust", "python", "distributed", "trace"],
@@ -69,7 +69,7 @@ const responses = [
   {
     terms: ["research", "cores", "lab"],
     answer:
-      "Sandeep was a researcher at CORES Lab through UCLA Engineering in Los Angeles from May 2024 to May 2025.",
+      "Sandeep was a research intern at UCLA CORES Lab, working on UAV signal detection, RF fingerprinting, and wireless-network data pipelines.",
   },
   {
     terms: ["award", "honor", "usaco", "amc", "aime"],
